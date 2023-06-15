@@ -1,0 +1,11 @@
+POST http://localhost:8800/books/
+Content-Type: application/json
+
+{
+    "title": "title from client",
+    "desc": "desc from client",
+    "cover": "cover from client"
+}
+
+###
+GET http://localhost:8800/books/
